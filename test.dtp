@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<task_protocol>
+	<analog_inputs>[['ShoulderForce', '', 1.0, 0.0, '', True], 
+		['ElbowForce', '', 1.0, 0.0, '', True], 
+		['Avg_MVC', '', 1.0, 0.0, '', True], 
+		['InstructRow', '', 1.0, 0.0, '', False], 
+		['Bar_Height', '', 1.0, 0.0, '', True], 
+		['A0', '', 1.0, 0.0, '', False]]</analog_inputs>
+	<blocktable>[['1', 2, '', False, 1], 
+		['2', 4, '', False, 1]]</blocktable>
+	<code>''</code>
+	<data_rate>1000</data_rate>
+	<description>''</description>
+	<feedback_mode>0</feedback_mode>
+	<gaze_feedback_mode>0</gaze_feedback_mode>
+	<instructions>''</instructions>
+	<instructions_default>u''</instructions_default>
+	<last_modified>'2020-09-18  04:25 PM'</last_modified>
+	<loadtable>[]</loadtable>
+	<loadtable_defs>[]</loadtable_defs>
+	<name>'test'</name>
+	<pause_behaviour>0</pause_behaviour>
+	<random_seed>1</random_seed>
+	<targetfor_ep>('Handle', ['Active', 0, -44], True)</targetfor_ep>
+	<targetfor_exo>['Fingertip', ['Active', 30, 90], True]</targetfor_exo>
+	<targettable>[[0.0, 0.0, 1.0, '000255128', '', '', 0.0, 0.0], 
+		[-5.0, -2.0, 2.0, '128255255', '', '', 5.0, 0.3], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 10.0, 5.0, '255255255', 'Flex your triceps as much as you can!', 'Relax!', 2.0, 0.0], 
+		[0.0, 10.0, 5.0, '255255255', 'Flex your triceps to reach the line.', 'Relax!', 2.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, '0', '', '', 0.0, 0.0], 
+		[-5.0, -8.0, 0.0, '255255255', '0', '', 2.0, 0.0]]</targettable>
+	<targettable_defs>[['X', 'float'], ['Y', 'float'], ['Vrad', 'float'], ['Color', 'colour'], ['Instruct Text', 'label'], ['End Text', 'label'], ['Height', 'float'], ['Stroke Width', 'float']]</targettable_defs>
+	<tasklevelparams>[['K_START_TGT', '1'], 
+		['K_JOINT_ASSESSED', '2'], 
+		['K_BAR_TGT', '2'], 
+		['K_MVC_TEXT_TGT', '21']]</tasklevelparams>
+	<tasklevelparams_defs>[['K_START_TGT', 'integer'], ['K_JOINT_ASSESSED', 'integer'], ['K_BAR_TGT', 'integer'], ['K_MVC_TEXT_TGT', 'integer']]</tasklevelparams_defs>
+	<tptable>[[1, 11, 100.0, 0.5, 500, 2000, 10000, 1, 500], 
+		[0, 12, 50.0, 1.0, 500, 2000, 10000, 1, 500]]</tptable>
+	<tptable_defs>[['MVC trial', 'int'], ['Target', 'target'], ['Goal Force (Pct)', 'float'], ['Minimum Force Threshold', 'float'], ['Initial Duration', 'int'], ['Force Hold Time', 'int'], ['Max Trial Time', 'int'], ['Feedback', 'int'], ['Inter-Trial Interval', 'int']]</tptable_defs>
+	<use_repeat_trial_flag>0</use_repeat_trial_flag>
+	<version>3.8</version>
+	<video>''</video>
+</task_protocol>
