@@ -6,8 +6,9 @@
 		['InstructRow', '', 1.0, 0.0, '', False], 
 		['Bar_Height', '', 1.0, 0.0, '', True], 
 		['A0', '', 1.0, 0.0, '', False]]</analog_inputs>
-	<blocktable>[['1', 2, '', False, 1], 
-		['2', 4, '', False, 1]]</blocktable>
+	<blocktable>[['1', 4, '', False, 1], 
+		['2', 2, '', False, 1], 
+		['3', 2, '', False, 1]]</blocktable>
 	<code>''</code>
 	<data_rate>1000</data_rate>
 	<description>''</description>
@@ -15,7 +16,7 @@
 	<gaze_feedback_mode>0</gaze_feedback_mode>
 	<instructions>''</instructions>
 	<instructions_default>u''</instructions_default>
-	<last_modified>'2020-09-18  04:25 PM'</last_modified>
+	<last_modified>'2020-09-22  11:49 AM'</last_modified>
 	<loadtable>[]</loadtable>
 	<loadtable_defs>[]</loadtable_defs>
 	<name>'test'</name>
@@ -51,7 +52,8 @@
 		['K_MVC_TEXT_TGT', '21']]</tasklevelparams>
 	<tasklevelparams_defs>[['K_START_TGT', 'integer'], ['K_JOINT_ASSESSED', 'integer'], ['K_BAR_TGT', 'integer'], ['K_MVC_TEXT_TGT', 'integer']]</tasklevelparams_defs>
 	<tptable>[[1, 11, 100.0, 0.5, 500, 2000, 10000, 1, 500], 
-		[0, 12, 50.0, 1.0, 500, 2000, 10000, 1, 500]]</tptable>
+		[0, 12, 50.0, 1.0, 500, 2000, 10000, 1, 500], 
+		[0, 12, 50.0, 1.0, 500, 2000, 10000, 0, 500]]</tptable>
 	<tptable_defs>[['MVC trial', 'int'], ['Target', 'target'], ['Goal Force (Pct)', 'float'], ['Minimum Force Threshold', 'float'], ['Initial Duration', 'int'], ['Force Hold Time', 'int'], ['Max Trial Time', 'int'], ['Feedback', 'int'], ['Inter-Trial Interval', 'int']]</tptable_defs>
 	<use_repeat_trial_flag>0</use_repeat_trial_flag>
 	<version>3.8</version>
