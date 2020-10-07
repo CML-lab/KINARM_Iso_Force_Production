@@ -16,7 +16,7 @@
 	<gaze_feedback_mode>0</gaze_feedback_mode>
 	<instructions>''</instructions>
 	<instructions_default>u''</instructions_default>
-	<last_modified>'2020-09-22  11:49 AM'</last_modified>
+	<last_modified>'2020-10-07  11:14 AM'</last_modified>
 	<loadtable>[]</loadtable>
 	<loadtable_defs>[]</loadtable_defs>
 	<name>'test'</name>
@@ -47,14 +47,15 @@
 		[-5.0, -8.0, 0.0, '255255255', '0', '', 2.0, 0.0]]</targettable>
 	<targettable_defs>[['X', 'float'], ['Y', 'float'], ['Vrad', 'float'], ['Color', 'colour'], ['Instruct Text', 'label'], ['End Text', 'label'], ['Height', 'float'], ['Stroke Width', 'float']]</targettable_defs>
 	<tasklevelparams>[['K_START_TGT', '1'], 
+		['K_MVC_TEXT_TGT', '21'], 
 		['K_JOINT_ASSESSED', '2'], 
 		['K_BAR_TGT', '2'], 
-		['K_MVC_TEXT_TGT', '21']]</tasklevelparams>
-	<tasklevelparams_defs>[['K_START_TGT', 'integer'], ['K_JOINT_ASSESSED', 'integer'], ['K_BAR_TGT', 'integer'], ['K_MVC_TEXT_TGT', 'integer']]</tasklevelparams_defs>
+		['K_MVC', '0.00']]</tasklevelparams>
+	<tasklevelparams_defs>[['K_START_TGT', 'integer'], ['K_JOINT_ASSESSED', 'integer'], ['K_BAR_TGT', 'integer'], ['K_MVC_TEXT_TGT', 'integer'], ['K_MVC', 'float']]</tasklevelparams_defs>
 	<tptable>[[1, 11, 100.0, 0.5, 500, 2000, 10000, 1, 500], 
-		[0, 12, 50.0, 1.0, 500, 2000, 10000, 1, 500], 
-		[0, 12, 50.0, 1.0, 500, 2000, 10000, 0, 500]]</tptable>
-	<tptable_defs>[['MVC trial', 'int'], ['Target', 'target'], ['Goal Force (Pct)', 'float'], ['Minimum Force Threshold', 'float'], ['Initial Duration', 'int'], ['Force Hold Time', 'int'], ['Max Trial Time', 'int'], ['Feedback', 'int'], ['Inter-Trial Interval', 'int']]</tptable_defs>
+		[2, 12, 50.0, 1.0, 500, 2000, 10000, 1, 500], 
+		[2, 12, 50.0, 1.0, 500, 2000, 10000, 0, 500]]</tptable>
+	<tptable_defs>[['Trial Type', 'int'], ['Target', 'target'], ['Goal Force (Pct)', 'float'], ['Minimum Force Threshold', 'float'], ['Initial Duration', 'int'], ['Force Hold Time', 'int'], ['Max Trial Time', 'int'], ['Feedback', 'int'], ['Inter-Trial Interval', 'int']]</tptable_defs>
 	<use_repeat_trial_flag>0</use_repeat_trial_flag>
 	<version>3.8</version>
 	<video>''</video>
